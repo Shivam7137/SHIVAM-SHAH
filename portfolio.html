@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+  <h1>Portfolio</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href = "portfolio.html">My Portfolio</a>
+        <ol>
+          <li><a href="#audio">Audio</a></li>
+          <li><a href="#video">Video</a></li>
+          <li><a href="#photos">Photos</a></li>
+        </ol>
+      </li>
+    </ul>
+
+  </nav>
+</header>
+<main>
+
+  <p>If you want to be updated about my works please follow me on <a href = "https://www.instagram.com/shivam_._shah/">
+    Instagram</a></p>
+  <section id="photos">
+    <h2>Photos</h2>
+    <ul>
+      <li><img src="Images/Sunset.jpg" alt="A scenic view of a sunset" width="400" height="300"></li>
+      <li><img src="Images/Lizard.jpg" alt="A close-up of a lizard" width="400" height="300"></li>
+      <li><img src="Images/Peggy's_cove.jpg" alt="A panoramic view of Peggy's Cove" width="400" height="300"></li>
+    </ul>
+  </section>
+  <section id="audio">
+    <h2>Audio</h2>
+    <audio controls>
+      <source src="my-audio-file.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+  <section id="video">
+    <h2>Video</h2>
+    <div class="video-container">
+      <div class="video-item">
+        <video width="200" height="400" controls>
+          <source src="videos/Beach.mp4" type="video/mp4">
+          Your browser does not support the video element.
+        </video>
+      </div>
+      <div class="video-item">
+        <iframe width="688" height="415" src="https://www.youtube.com/embed/D3Ptd4KruMA" title="Fireworks"></iframe>
+      </div>
+    </div>
+  </section>
+
+
+</main>
+<footer>
+  <p>Copyright &copy 2023 Shivam Shah</p>
+</footer>
+<script src="Script.js"></script>
+</body>
+</html>

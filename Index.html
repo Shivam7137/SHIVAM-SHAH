@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>My Photography Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<header>
+    <h1>Welcome to My Photography Website</h1>
+    <nav id = "navBar">
+        <ul>
+            <li class = 'navBarItems'><a href="Index.html">Home</a></li>
+            <li class = 'navBarItems'><a id = "services" href="services.html">Services</a></li>
+            <li class = 'navBarItems'><a id="contact" href="contact.html">Contact</a></li>
+            <li class = 'navBarItems'><a id = "portfolio" href = "portfolio.html">My Portfolio</a></li>
+        </ul>
+    </nav>
+</header>
+
+<button id="button1">Light Theme</button>
+<button id="button2">Dark Theme</button>
+<button id="button3">Color Theme</button>
+
+
+<main>
+
+    <p>Here, you will find beautiful and stunning photographs that I have captured and curated over the years.
+        Explore my work and see the world through my lens.</p>
+    <ul>
+    <li><a href="portfolio.html"><img src="Images/Sunset.jpg" alt="A scenic view of a sunset" width="400" height="300">
+    </a></li>
+    <li><a href="portfolio.html"><img src="Images/Lizard.jpg" alt="A close-up of a lizard" width="400" height="300">
+    </a></li>
+    <li><a href="portfolio.html"> <img src="Images/Peggy's_cove.jpg" alt="A panoramic view of Peggy's Cove" width="400"
+                                       height="300"></a></li>
+        </ul>
+</main>
+<footer>
+    <p>&copy; <span id="currentYear"></span> Shivam Shah</p>
+</footer>
+
+<script src="Script.js"></script>
+<script>
+    document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+</script>
+
+</body>
+</html>
